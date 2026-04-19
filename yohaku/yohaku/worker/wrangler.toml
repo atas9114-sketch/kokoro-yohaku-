@@ -1,0 +1,11 @@
+name = "yohaku-api"
+main = "index.js"
+compatibility_date = "2025-01-01"
+
+# デプロイ前に以下コマンドで APIキーを Secret として登録してください:
+# wrangler secret put ANTHROPIC_API_KEY
+
+# 必要に応じてカスタムドメインを設定:
+# routes = [
+#   { pattern = "api.yohaku.example.com/*", zone_name = "example.com" }
+# ]
